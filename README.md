@@ -8,17 +8,18 @@
 
 Билдим и поднимаем контейнер. Команды вводить на одному уровне с файлами docker-compose.yml и Dockerfile.
 
-docker-compose build
-docker-compose up
+```docker-compose build```
+
+```docker-compose up```
 
 Чтобы запустить скрипт:
 
 Заходим в контейнер habr_parser:
 
-docker exec -it <id контейнера> /bin/bash
+```docker exec -it <id контейнера> /bin/bash```
 
 Далле вводим команды в терминале контейнера:
 
-cd app
+```cd app```
 
-python habr_parser.py
+```python habr_parser.py```
