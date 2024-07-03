@@ -14,7 +14,11 @@ docker-compose up
 Чтобы запустить скрипт:
 
 Заходим в контейнер habr_parser:
+
 docker exec -it <id контейнера> /bin/bash
+
 Далле вводим команды в терминале контейнера:
+
 cd app
+
 python habr_parser.py
